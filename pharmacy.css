@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body{
+    background:rgba(245, 245, 245, 0.66);
+    font-family: sans-serif;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+.logoph{
+    height: 30px;
+    width: 30px;
+}
+
+.logoph:hover{
+    transform: scale(1.5);
+    transition:1s;
+}
+.navbar{
+    background-color: #D8FCD8; 
+    /* background-color: whitesmoke; */
+    /* border: solid 2px green; */
+    border-bottom:solid 2px greenyellow ;
+    display: flex;
+    justify-content: end;
+    position: static; 
+    width: 100%;
+    text-align: end;
+}
+.navbar-item{
+    justify-content: end;
+/* text-align: center; */
+/* margin-left: 200px; */
+}
+.navbar-brand{
+    color: green;
+    
+}
+.navbar-nav{
+    text-align: center;
+}
+
+li{
+    justify-content: end;
+}
+
+.logsign{
+    text-align: center;
+    justify-content: center;
+}
+.pages{
+    color: green;
+    text-align: center;
+    justify-content: center;
+    align-content: space-between;
+    /* margin-left: 20px;  */
+
+
+} 
+.nav-item:hover{
+    color: green;
+    
+}
+
+.navbar-toggler{
+    color: transparent;
+    background-color:transparent;
+    ;
+    
+}
+.navbar-toggler-pic{
+    height: 25px;
+    
+    background-color: transparent;
+} */
+
+
+
+/* .nav-item{
+    left: 10%;
+} */
+
+.navbar-collapse{
+/* text-align: center; */
+/* justify-content: center; */
+position: absolute;
+} 
+
+/* #home{
+margin-left: 500px;
+}
+#login{
+    margin-left: 500px;
+}
+#signup{
+    margin-left: 0px;
+} */
+
+li:hover{
+    transform: scale(1.10);
+    text-decoration: underline;
+    transition:1s;
+    color: green;
+}
+
+.here4u{
+   
+    margin-bottom: 50px;
+    color: yellowgreen;
+    text-align: center;
+}
+.here4u:hover{
+    transform: scale(1.10);
+    transition:1s;
+    color: greenyellow;
+
+}
+
+
+
+
+
+
+/* banner */
+/* .banner-img{
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.banner-label{
+    position: absolute;
+    color: black;
+    font-size: 25px;
+} */
+.myVideo {
+    background: cover   ;
+    width: 100%;
+    
+}
+
+video {
+    object-fit: cover;
+    /* position: relative; */
+    margin-top: 20px;
+    
+    height: 200px;
+    
+    width: 100%;
+} 
+/* AboutUs */
+
+.companyName{
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+    color: yellowgreen;
+    text-align: center;
+}
+
+.companyName:hover{
+    transform: scale(1.10);
+    transition:1s;
+
+    color: greenyellow;
+}
+
+
+
+.cp{
+    width: 600px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* margin-left: 200px; */
+    /* left: 20%; */
+    border-radius: 5%;
+}
+
+.cp:hover{
+    transform: scale(1.10);
+    transition:2s;
+}
+
+
+/* .picBox{
+    border: #D8FCD8 solid 2px;
+    border-radius: 5%;
+    width: 500px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background:#D8FCD8;
+} */
+
+.descBox{
+    border: #D8FCD8 solid 2px;
+    border-radius: 5%;
+    width: 600px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background:#D8FCD8;
+}
+
+.descBox:hover{
+    transform: scale(1.10);
+    transition:2s;
+}
+
+ /* #descbox1{
+     margin-left: 20px;  
+}
+
+#descbox2{
+      margin-right: 20px;  
+}  */
+.description{
+    margin-top: 70px;
+    text-align: center;
+    color:yellowgreen;
+
+    
+
+}
+
+/* Cards */
+
+.box{
+    height: 300px;
+    width: 200px;
+    border: 2px solid green;
+    border-radius: 10%;
+    display: block;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.innerbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 10%;
+    align-items: center;
+
+    margin-left: 40%;
+    margin-top: -10%;
+
+}
+
+
+
+
+/* Footer */
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background:#D8FCD8;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color:yellowgreen;
+}
+
+.footer-content h5,h6{
+    font-size: 15px;
+    font-weight: 500;
+    
+    
+    color:yellowgreen;
+}
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color:yellowgreen;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    /* border: 1.1px solid white; */
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 40px;
+    height: 40px;
+    transition: color .4s ease;
+}
+
+
+
+.socials a  img{
+    width: 40px;
+    height: 40px;
+
+}
+
+
+/* Login */
+
+
+.loginBox{
+    height: 350px;
+    width: 500px;
+    border: yellowgreen 2px solid;
+    /* margin-left: 500px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    /* justify-content: center; */
+}
+
+.signupBox{
+    height: 700px;
+    width: 500px;
+    border: yellowgreen 2px solid;
+    /* margin-left: 500px; */
+    margin-top:100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+/* .bodyLogin{
+    width: 100%;
+    height: 800px;
+} */
+/* .Size{
+    width: 100%;
+    height: 800px;
+} */
+
+.show-content{
+    display: block;
+}
+.hidden-content{
+    display: none;
+}
+
+.form-label{
+    color: yellowgreen;
+}
+
+/* Carousel */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    
+    margin: auto;
+}
+
+
+#carouselExampleCaptions{
+    width: 100%;
+   
+    border: solid 2px yellowgreen;
+    margin-bottom: 50px;
+    
+   
+}
+
+/* Cards */
+
+
+.card {
+    height: 212px;
+    width: 402px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 1em;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    /* margin-right: 82px; */
+    margin-bottom: 50px;
+    margin-right: 30px;
+   }
+   
+
+   .card-image {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: yellowgreen;
+    background: yellowgreen
+    
+   }
+   
+  
+   .card-description {
+    display: flex;
+    position: absolute;
+    gap: 1em;
+    flex-direction: column;
+    background-color:#D8FCD8;
+    height: 70%;
+    bottom: -1px;
+    border-radius: 1em 1em 0 0;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+    border: solid 2px yellowgreen;
+   }
+   
+   
+   .text-title {
+    font-size: 1.4em;
+    font-weight: 700;
+   }
+   
+   .text-body {
+    font-size: 1em;
+    line-height: 150%;
+   }
+   
+   
+   /* Hover states */
+   
+   .card:hover .card-description {
+    transform: translateY(100%);
+   }
+
+.col-sm-12{
+    justify-content: center;
+}
+   
+   

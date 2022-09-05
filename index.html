@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script> 
+    <title  > Online Pharmacy</title>
+    <link rel = "icon" href = "images/plus.png" 
+        type = "image/x-icon">
+    <link rel="stylesheet" href="pharmacy.css" />
+
+    
+  </head>
+
+  <body>
+    
+    <header>
+      
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img class="logoph" src="images/plus.png" alt=""></a>
+              <button  class="navbar-toggler"  style="color: yellowgreen;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-toggler-pic" src="images/plus2.png" alt="">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active pages" id="home" aria-current="page" style="color: yellowgreen;" href="#aboutus">AboutUs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pages" style="color: yellowgreen;" href="#ourProducts">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pages" style="color: yellowgreen;" href="#contact">Contact</a>
+                  </li>
+                  
+                </ul>
+
+                <ul class="navbar-nav logsign">
+                  <li class="nav-item">
+                    <a class="nav-link pages" style="color: yellowgreen;" id="login" href="LogIn.html">LogIn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pages" style="color: yellowgreen;" id="signup" href="SignUp.html">SignUp</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        
+    <main>
+
+      <!-- Video -->
+
+        <div class="container-fluid">
+        <div class="video" id="">
+          <video autoplay muted loop id="myVideo">
+          <source src="images/video.mp4" type="video/mp4" />
+        </video>
+        </div>
+        
+
+        <div class="aboutus" id="aboutus">
+          <div class="container">
+            <div class="row justify-content-center">
+              <h3 class="companyName">About Us</h3>
+            
+              <div class="col-md-6 col-sm-12 picBox">
+                <img class="cp" id="cp1" src="images/pharmacy.jpg" alt="">
+              </div>
+
+              <div class="col-md-6 col-sm-12 descBox" id="descbox1">
+                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, asperiores officiis dolorem omnis natus perspiciatis tenetur repellendus. Culpa nesciunt vitae, illum numquam aperiam ratione voluptate eum, sequi ipsum, incidunt perferendis?</p>
+              </div>
+
+              
+
+              <div class="col-md-6 col-sm-12 picBox">
+                <img class="cp" id="cp1" src="images/pharmacy.jpg" alt="">
+              </div>
+
+              <div class="col-md-6 col-sm-12 descBox" id="descbox1">
+                 <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, asperiores officiis dolorem omnis natus perspiciatis tenetur repellendus. Culpa nesciunt vitae, illum numquam aperiam ratione voluptate eum, sequi ipsum, incidunt perferendis?</p>
+              </div>
+              
+
+            
+            </div>
+            
+            
+          </div>
+        </div>
+
+
+        <div class="container">
+          <h2 class="here4u">We are here for you!</h2>
+          <div id="myCarousel" class="carousel slide">
+           
+            <ol class="carousel-indicators">
+              <li class="item1 active"></li>
+              <li class="item2"></li>
+              <li class="item3"></li>
+              <li class="item4"></li>
+            </ol>
+        
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/slider11.jpg" class="d-block w-100 alt="...">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slider22.jpg" class="d-block w-100" alt="...">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="images/slider33.jpg" class="d-block w-100" alt="...">
+                  
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" style="color: yellowgreen;" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" style="color: yellowgreen;" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- Cards -->
+            <div class="container">
+              <h2 class="here4u" id="ourProducts">Our Products!</h2>
+              <div class="row justify-content-center">
+
+                <div class="card col-md-4 col-sm-12">
+                  <div class="card-image"><img style="border-radius: 5%;" src="images/pills.jpg" alt=""></div>
+                    <div class="card-description">
+                      <p class="text-title">Medicine</p>
+                      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+
+                <div class="card col-md-4 col-sm-12">
+                  <div class="card-image"><img style="border-radius: 5%;" src="images/pills.jpg" alt=""></div>
+                    <div class="card-description">
+                      <p class="text-title">Medicine</p>
+                      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 col-sm-12">
+                  <div class="card-image"><img style="border-radius: 5%;" src="images/pills.jpg" alt=""></div>
+                    <div class="card-description">
+                      <p class="text-title">Medicine</p>
+                      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 col-sm-12">
+                  <div class="card-image"><img style="border-radius: 5%;" src="images/pills.jpg" alt=""></div>
+                    <div class="card-description">
+                      <p class="text-title">Medicine</p>
+                      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 col-sm-12">
+                  <div class="card-image"><img style="border-radius: 5%;" src="images/pills.jpg" alt=""></div>
+                    <div class="card-description">
+                      <p class="text-title">Medicine</p>
+                      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 col-sm-12">
+                  <div class="card-image"><img  src="images/pills.jpg" alt=""></div>
+                    <div class="card-description">
+                      <p class="text-title">Medicine</p>
+                      <p class="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+
+                
+
+
+
+              </div>
+            </div>
+
+
+
+            
+
+
+    </main>
+    <footer>
+      <div class="footer-content" id="contact">
+        <h3>Creator: Art Shkodra 2022</h3>
+        <h5>Phone: +38344626660</h5>
+        <h6>Email: artshkodra@gmail.com</h6>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ipsam, inventore voluptate aliquid quidem distinctio amet vitae nostrum necessitatibus laudantium, rerum nisi. Aliquam porro nesciunt eius sunt velit id fuga.</p>
+
+        <ul class="socials">
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"><img src="images/socials/fblogo.png" alt=""></i></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"><img src="images/socials/instalogo.png" alt=""></i></a></li>
+          <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"><img src="images/socials/twlogo.png" alt=""></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"><img src="images/socials/ytlogo.png" alt=""></i></a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square"><img src="images/socials/llogo.png" alt=""></i></a></li>
+       </ul>
+      </div
+    </footer>
+  </body>
+</html>
